@@ -1,0 +1,14 @@
+<model-viewer src="Nbear.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="poster.webp" shadow-intensity="1">
+    <button class="Hotspot" slot="hotspot-1" data-position="-0.012049169657767814m 0.10413684565103472m 0.02365353657685357m" data-normal="0.3859905945991234m 0.22580502140890354m 0.8944402457333525m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">北火熊</div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
